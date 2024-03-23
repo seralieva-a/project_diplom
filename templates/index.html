@@ -1,0 +1,26 @@
+<html>
+ <style>
+   body {
+    background-image: url(assets/images/fon.jpeg); /* Адрес картинки */
+    background-size: 35%; /* Ширина картинки */
+   }
+ 
+  </style>
+
+<header>
+    <h1 style="font-size: 60px; font-family: serif; text-align: center;">Bright Studio "Aisana"</h1>
+    <nav>
+        <ul style="display: flex; flex-direction: row; justify-content: space-evenly; max-width: 50%;">
+            <li><a href="{{ url_for('about') }}" style="font-size: 60px; color: #FF1493; font-family: serif;">О нас</a></li>
+            <li><a href="{{ url_for('services') }}" style="font-size: 60px; color: #FF1493; font-family: serif;">Услуги</a></li>
+            <li><a href="{{ url_for('gallery') }}" style="font-size: 60px; color: #FF1493; font-family: serif;">Галерея</a></li>
+            <li><a href="{{ url_for('contact') }}" style="font-size: 60px; color: #FF1493; font-family: serif;">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+   
+</body>
+</html>
